@@ -1,0 +1,85 @@
+/*  ADD your styles below --- WHERE INDICATED ---
+    Keep all the comments I have provided.
+    Where I have commented "keep," DO NOT touch that line!
+    */
+
+body {
+    background: #8badb4; /* must change */
+    color: #000; /* may be #000 or #fff */
+    font-family: 'Verdana', 'Arial', sans-serif; /* keep */
+}
+
+article {
+    width: 800px; /* keep */
+    padding: 2rem; /* keep */
+    margin: auto; /* keep */
+    background: #fcf0ea;
+}
+
+/* --- ADD YOUR STYLES BELOW --- */
+header, footer {
+    background: #144f52;
+    color: #fff;
+}
+
+aside {
+    background: #8badb4;
+    color: #000;
+}
+
+figure {
+    background: #f1def9;
+}
+
+
+/* --- add your PSEUDO CLASSES below this line --- */
+
+a:link {
+    color: #78417f;
+}
+
+a:visited {
+    color: #383838;
+}
+
+a:focus {
+    color: #5b0689;
+    outline-color: #5b0689;
+}
+
+a:hover {
+    color: #5b0689;
+    text-decoration: none;
+}
+
+a:active {
+  color: #93061b;
+  text-decoration: none;
+}
+
+/* footer links */
+
+footer a:link {
+    color: #cff459;
+}
+
+footer a:visited {
+    color: #e0e0e0;
+}
+
+footer a:focus {
+    color: #f0fec0;
+    outline-color: #f0fec0;
+}
+
+footer a:hover {
+    color: #5b0689;
+    background: #cfcfcf;
+    text-decoration: none;
+}
+
+footer a:active {
+  color: #383838;
+  background: #cfcfcf;
+  text-decoration: none;
+}
